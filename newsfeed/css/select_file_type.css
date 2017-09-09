@@ -1,0 +1,31 @@
+
+.setHeadFont {
+  font-size: 18px;
+  color: #fff !important;
+}
+
+
+.panel-heading {
+  height: 60px;
+  background-color: #0076FF !important;
+}
+
+.setBackgrnd {
+  background-color: #F6F8FA;
+  height: 100vh;
+}
+.setInputHeight{
+  margin-top: 20px;
+}
+.setMarginTop{
+  margin-top: 15px;
+}
+.setLastBorder {
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0076FF;
+    border-color: #2e6da4;
+}

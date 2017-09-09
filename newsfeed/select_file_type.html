@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="description" content="NewsFeed" />
+
+    <title>Select File Type</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/newsfeed.css" />
+	<link rel="stylesheet" type="text/css" href="css/select_file_type.css" />
+  
+	
+
+</head>
+
+<body id="main-container" style="width: 100%;">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img class="brand-img" src="images/brand.png">
+            </a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <form class="navbar-form navbar-left hidden-sm hidden-xs" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control search" placeholder="Search for posts, members, courses...">
+              </div>
+              
+            </form>
+            <ul class="nav hidden-md hidden-sm navbar-nav navbar-right">
+              <li class="navbar-button"><a href="#"><img class="navbar-icon" src="images/plus.png"></a></li>
+              <li class="navbar-button"><a href="#"><img class="navbar-icon" src="images/mail.png"></a></li>
+              <li class="navbar-button"><a href="#"><img class="navbar-icon" src="images/notif.png"></a></li>
+              <li class="navbar-button"><a href="#"><img class="navbar-icon" src="images/menu.png"></a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="navbar-profile-img img-circle" src="images/profile.jpg"></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+<div class="row setBackground">
+  <div class="col-xs-12 col-sm-12 col-md-offset-4 col-md-5 col-lg-5">
+    <div class="panel-group">
+      <div class="panel">
+        <div class="panel-heading setHeadFont">
+          <span>Select a file Type</span>
+          <span class="pull-right">X</span>
+        </div>
+        <div class="panel-body">
+          <div class="row setInputHeight">
+            <div class="col-xs-12">
+			<a href="#"><img src="images/takephoto.png" alt="file">
+              
+            </div>
+          </div>
+          <div class="row setInputHeight">
+            <div class="col-xs-12">
+			<a href="#"><img src="images/uploadphoto.png" alt="file" >
+              
+            </div>
+          </div>
+<div class="row setInputHeight">
+            <div class="col-xs-12">
+			<a href="#"><img src="images/uploadppt.png" alt="file" >
+              
+            </div>
+          </div>
+<div class="row setInputHeight">
+            <div class="col-xs-12">
+			<a href="#"><img src="images/uploadpdf.png" alt="file" >
+              
+            </div>
+          </div>
+<div class="row setInputHeight">
+            <div class="col-xs-12">
+			<a href="#"><img src="images/attachweblink.png" alt="file" >
+              
+            </div>
+          </div>
+<div class="row setInputHeight">
+            <div class="col-xs-12">
+			<a href="#"><img src="images/youtube.png" alt="file" >
+              
+            </div>
+          </div>
+         
+                   <div class="row setMarginTop setLastBorder">
+            <div class="col-xs-12 col-sm-12 col-md-offset-5 col-md-3 col-lg-3 text-right">
+              <button class="btn btn-default btn-block">Cancel</button>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-offset-0 col-md-3 col-lg-3 text-right">
+              <button class="btn btn-primary btn-block" [routerLink]="['/addAdmin']">Next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,115 @@
+/*.setBckgrnd {
+  background: #F4F6F8;
+}*/
+
+.setWhiteBckgrnd {
+  background: #fff;
+  border: 2px solid #ccc;
+}
+.setHeadStyle {
+    padding-top: 7px;
+    color: #A5A7AA;
+    font-size: 22px;
+    font-weight: 550;
+    padding-bottom: -4px;
+    /* background: #F2F2F2; */
+    border-bottom: 1px solid #ccc;
+text-align:center;
+font-family:Helvetica, sans-serif;
+
+
+}
+.nav {
+
+    padding-left: 25px;
+    margin-bottom: 0;
+    list-style: none;
+text-align:center;
+font-size: 29px;
+color: #A5A7AA;
+}
+
+
+.setSearchStyle {
+  /*border-bottom: 1px solid #ccc;*/
+  padding-top: 24px;
+  padding-bottom: -2px;
+font-size:20;
+background-color:#F5F8FA;
+color:#A5A7AA;
+}
+
+.form-control {
+  height: 100px;
+  background: #F2F2F2;
+}
+
+.setTabStyle {
+color:#A0A0A0;
+margin-left:10px;
+font-size:22px;
+font-weight:500;
+
+}
+.setMarginTop {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.setStyle {
+  width: 100%;
+  height: 13%;
+}
+
+.setContactStyle {
+  margin-top: 5px;
+
+}
+
+.setContactStyle span {
+ 
+  font-size: 22px;
+  color: black;
+}
+
+.setContactStyle p {
+font-size:22px;
+color:#A0A0A0;
+}
+.setAdd {
+
+  width: 100vh;
+  height: 9%;
+  margin-top: 10px;
+  padding-right: 21px;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 25px;
+  text-align: center;
+}
+/*from here*/
+.
